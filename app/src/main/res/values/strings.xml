@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FlickerPuzzle</string>
+
+    <!-- Flickr  Small Table Information -->
+    <string name="flick_url_table_small">photo_set_table_small</string>
+    <string name="flick_url_schemaCmd_small">CREATE TABLE IF NOT EXISTS photo_set_table_small (
+		Id integer primary key autoincrement,
+		surl text,
+		murl text
+		);</string>
+    <string name="col_url_small">surl</string>
+    <string name="col_url_medium">murl</string>
+
+    <string-array name="photoset_column_small">
+        <item>surl</item>
+        <item>murl</item>
+    </string-array>
+    <!--  Table Information -->
+
+    <string name="cache_release_toast_msg">Yours,application cache has been deleted</string>
+</resources>
